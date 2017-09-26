@@ -200,11 +200,11 @@ class Clock extends Component {
       }
       if (this.state.paused) {
         return (
-          <Button type="submit" bsStyle="success" onClick={this.pauseTimer}><Glyphicon glyph="play" /> Resume</Button>
+          <Button type="button" bsStyle="success" onClick={this.pauseTimer}><Glyphicon glyph="play" /> Resume</Button>
         );
       }
       return (
-        <Button type="submit" bsStyle="danger" onClick={this.pauseTimer}><Glyphicon glyph="pause" /> Pause</Button>
+        <Button type="button" bsStyle="danger" onClick={this.pauseTimer}><Glyphicon glyph="pause" /> Pause</Button>
       );
     }
     renderSounds() {
@@ -223,10 +223,10 @@ class Clock extends Component {
     renderStartTimerButton() {
       if (this.state.timerActive)
       {
-        return (<Button type="submit" bsStyle="warning" onClick={this.startTimer}><Glyphicon glyph="time" /> Restart Timer</Button>);
+        return (<Button type="button" bsStyle="warning" onClick={this.startTimer}><Glyphicon glyph="time" /> Restart Timer</Button>);
       }
       else {
-        return (<Button type="submit" bsStyle="success" onClick={this.startTimer}><Glyphicon glyph="play" /> Start Timer</Button>);
+        return (<Button type="button" bsStyle="success" onClick={this.startTimer}><Glyphicon glyph="play" /> Start Timer</Button>);
       }
     }
     render() {
