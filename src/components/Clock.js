@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import {Glyphicon, ButtonToolbar, Table, tr, td, th, thead, tbody, Grid, Row, Col, FormGroup, Checkbox,InputGroup, ControlLabel, FormControl, Button} from 'react-bootstrap';
 import Sound from 'react-sound';
-import intervalAlarmSound from './intervalAlarm.ogg';
-import timerAlarmSound from './timerAlarm.ogg';
+import intervalAlarmSound from '../sounds/intervalAlarm.ogg';
+import timerAlarmSound from '../sounds/timerAlarm.ogg';
 
 function circle(props)
 {
