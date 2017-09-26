@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
-import {Grid, Row,Col,Button,ButtonToolbar,PageHeader} from 'react-bootstrap'
+import {Grid, Image, Row,Col,Button,ButtonToolbar,PageHeader} from 'react-bootstrap'
+import PageIcon from '../assets/favicon64.png'
 
 class TitleBox extends React.Component
 {
@@ -18,7 +19,7 @@ class TitleBox extends React.Component
     return (
       <Grid>
         <PageHeader>
-          Interval Timer <small>{"Timer that play sounds on an interval to remind you it's running."}</small> <Button type="button" pullRight="true" onClick={this.openGitHub}>View Source</Button>
+          <Image src={PageIcon}/> Interval Timer <small>{"Timer that play sounds on an interval to remind you it's running."}</small> <Button type="button" pullRight="true" onClick={this.openGitHub}>View Source</Button>
         </PageHeader>
       </Grid>
     );
