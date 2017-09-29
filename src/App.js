@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './App.css';
 import Clock from './components/Clock.js'
 import TitleBox from './components/TitleBox.js'
 
