@@ -19,7 +19,7 @@ class TitleBox extends React.Component
     return (
       <Grid>
         <PageHeader>
-          <Image src={PageIcon}/> Interval Timer <small>{"Timer that play sounds on an interval to remind you it's running."}</small> <Button type="button" pullRight="true" onClick={this.openGitHub}>View Source</Button>
+          <Image src={PageIcon}/> Interval Timer <small>{"Timer that plays sounds on an interval to remind you it's running."}</small> <Button type="button" pullRight="true" onClick={this.openGitHub}>View Source</Button>
         </PageHeader>
       </Grid>
     );
