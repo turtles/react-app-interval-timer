@@ -1,4 +1,4 @@
 # Interval Timer
-Timer alarm web app which optionally plays a sound on an interval to remind you it's running.
+A timer that plays a sound on an interval to remind you that it is running.
 
 [Demo](https://turtles.github.io/react-app-interval-timer/)
